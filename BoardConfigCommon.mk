@@ -91,5 +91,6 @@ TARGET_ENABLE_QC_AV_ENHANCEMENTS := true
 # To handle radio version checks
 TARGET_RELEASETOOLS_EXTENSIONS := device/samsung/msm8660-common
 
-# Use older ION API for qcom/media
-TARGET_HAS_OLD_QCOM_ION := true
+# Use legacy MM heap behavior
+TARGET_DISPLAY_INSECURE_MM_HEAP := true
+
